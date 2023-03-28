@@ -37,6 +37,10 @@ In the app, there is a homepage which comtains a short description about the app
 
 # Details of Author
  This challenge was contributed by:
+- [Daryl Wattima](https://github.com/Wattima)
+- [Prince Daniel](https://github.com/prince475)
+- [Edna Guantai](https://github.com/Edna1996)
+- [Dancun Odhiambo](https://www.github.com/dancun616)
 
 # License
 -[MIT]
