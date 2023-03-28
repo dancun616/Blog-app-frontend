@@ -30,7 +30,7 @@ To run the application locally, use the command:
 
         npm run dev
 
-This will start the server which can br accessed by clicking on the generated link
+This will start the server which can by accessed by clicking on the generated link
 
 # APP features
 
