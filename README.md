@@ -33,7 +33,8 @@ To run the application locally, use the command:
 This will start the server which can by accessed by clicking on the generated link
 
 # APP features
-
+- Login
+- SignUp
 
 # Details of Author
  This challenge was contributed by:
