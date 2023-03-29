@@ -7,4 +7,13 @@ function Author({ authorId }) {
     useEffect(() => {
         let isMounted = true;
         async function fetchData() {
-            
+            try {
+                const response = await fetch(`https://example.com/authors/${authorId}`);
+                const data = await response.json();
+                if (isMounted) {
+                  setAuthor(data);
+                }
+              } catch (error) {
+                console.error('Error fetching author:', error);
+              }
+            }
