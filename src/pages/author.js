@@ -22,4 +22,18 @@ function Author({ authorId }) {
               isMounted = false;
             };
           }, [authorId]);
-        
+      
+    const { name, bio, image } = author;
+
+  return (
+    <div>
+      <img src={image} alt={name} />
+      <h2>{name}</h2>
+      <p>{bio}</p>
+      <Link to={`/authors/${authorId}/posts`}>View Posts</Link>
+    </div>
+  );
+}
+
+export default Author;
+
