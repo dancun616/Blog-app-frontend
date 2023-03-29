@@ -5,4 +5,21 @@
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
+  
+}
+.login, .signup{
+  padding: 12px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(90, 220, 181);
+  color: #222;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.title{
+  color: white;
+  margin-bottom: 30%;
 }
