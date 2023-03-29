@@ -13,3 +13,9 @@ function NavBar({ setUser }) {
     function onClickPosts() {
         navigate("/posts")
     }
+    function onClickComments() {
+        navigate("/comments")
+    }
+    function onClickCategory() {
+        navigate("/category")
+    }
