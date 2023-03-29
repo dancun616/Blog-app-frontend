@@ -10,3 +10,6 @@ function NavBar({ setUser }) {
     function onClickAuthor() {
         navigate("/authors")
     }
+    function onClickPosts() {
+        navigate("/posts")
+    }
