@@ -16,6 +16,8 @@ function NavBar({ setUser }) {
     function onClickComments() {
         navigate("/comments")
     }
-    function onClickCategory() {
-        navigate("/category")
+    function onClickLogout() {
+        localStorage.clear()
+        setUser({})
+        navigate("/login")
     }
