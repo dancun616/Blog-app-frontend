@@ -13,3 +13,21 @@ function Posts() {
         fetchData();
       }, []);
     
+      return (
+        <div>
+          {posts.map((post) => (
+            <div key={post.id}>
+              <img src={post.image} alt={post.title} />
+              <h2>{post.title}</h2>
+              <p>{post.description}</p>
+              <p>By <Link to={`/authors/${post.authorId}`}>{post.authorName}</Link></p>
+              <p>{post.about}</p>
+              <Link to={`/posts/${post.id}/comments`}>Comments</Link>
+            </div>
+          ))}
+        </div>
+      );
+    }
+    
+    export default Posts;
+    
