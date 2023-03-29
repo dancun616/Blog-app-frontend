@@ -28,7 +28,7 @@ export default function Registration() {
       }
     
     return (
-        <div>
+        <div className="sign-up">
             <h1>SignUp.</h1>
             <form className="form" onSubmit={event => handleSubmit(event)}>
                 <label>Username:</label>

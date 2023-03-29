@@ -29,7 +29,7 @@ export default function Login() {
   }
     
     return (
-        <div>
+        <div className="login-page">
           
             <h1>Login.</h1>
             <form className="form" onSubmit={event => handleSubmit(event)}>
