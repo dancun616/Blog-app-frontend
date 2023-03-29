@@ -1,0 +1,7 @@
+.sign-up{
+  /* width: 350px; */
+  text-align: center;
+  height: 100vh;
+  background: rgb(58,68,180);
+background: linear-gradient(90deg, rgba(58,68,180,1) 0%, rgba(161,102,128,1) 50%, rgba(69,252,216,1) 100%);
+}
