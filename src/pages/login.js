@@ -31,7 +31,7 @@ export default function Login() {
     return (
         <div>
           
-            <h1>login.</h1>
+            <h1>Login.</h1>
             <form className="form" onSubmit={event => handleSubmit(event)}>
                 <label>Username:</label>
                 <input type="text" placeholder="Please input your username" value={user_name} onChange={e => SetUsername(e.target.value)}></input>
@@ -40,8 +40,8 @@ export default function Login() {
                 <label>Password:</label>
                 <input type="text"placeholder="Please input your password" value={password} onChange={e => SetPassword(e.target.value)}></input>
                 <input type="submit"></input>
-                <h1>please register here.</h1>
-                <Link href="/registration">Register here</Link>
+                <h4>To Register.</h4>
+                <Link href="/registration">signup here</Link>
             </form>
         </div>
     )

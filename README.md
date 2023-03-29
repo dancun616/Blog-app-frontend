@@ -43,5 +43,3 @@ This will start the server which can by accessed by clicking on the generated li
 - [Edna Guantai](https://github.com/Edna1996)
 - [Dancun Odhiambo](https://www.github.com/dancun616)
 
-# License
--[MIT]
