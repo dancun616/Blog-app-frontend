@@ -21,3 +21,27 @@ function NavBar({ setUser }) {
         setUser({})
         navigate("/login")
     }
+
+    return (
+        <div>
+          <button onClick={onClickHome}>
+            Home
+          </button>
+          <button onClick={onClickAuthor}>
+            Author
+          </button>
+          <button onClick={onClickPosts}>
+            Posts
+          </button>
+          <button onClick={onClickComments}>
+            Comments
+          </button>
+          <button onClick={onClickLogout}>
+            Logout
+          </button>
+        </div>
+      );
+    }
+    
+    export default NavBar;
+    
