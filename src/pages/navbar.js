@@ -7,3 +7,6 @@ function NavBar({ setUser }) {
     function onClickHome() {
       navigate("/")
     }
+    function onClickAuthor() {
+        navigate("/authors")
+    }
