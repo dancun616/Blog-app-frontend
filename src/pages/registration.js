@@ -28,8 +28,8 @@ export default function Registration() {
       }
     
     return (
-        <div>
-            <h1>registration.</h1>
+        <div className="sign-up">
+            <h1>SignUp.</h1>
             <form className="form" onSubmit={event => handleSubmit(event)}>
                 <label>Username:</label>
                 <input type="text" placeholder="Please create your username" value={user_name} onChange={e => SetUsername(e.target.value)}></input>
