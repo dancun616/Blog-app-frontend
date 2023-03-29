@@ -13,3 +13,18 @@ function Comments() {
         }
         fetchData();
       }, [postId]);
+
+      return (
+        <div>
+          <h2>Comments</h2>
+          {comments.map((comment) => (
+            <div key={comment.id}>
+              <p>{comment.user}: {comment.text}</p>
+            </div>
+          ))}
+        </div>
+      );
+    }
+    
+    export default Comments;
+    
