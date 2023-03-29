@@ -17,3 +17,9 @@ function Author({ authorId }) {
                 console.error('Error fetching author:', error);
               }
             }
+            fetchData();
+            return () => {
+              isMounted = false;
+            };
+          }, [authorId]);
+        
