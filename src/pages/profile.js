@@ -56,3 +56,28 @@ function Profile() {
               // TODO: Handle error
             });
         } 
+
+        return (
+            <div>
+              <h2>User Profile</h2>
+              <form onSubmit={handleSubmit}>
+                <label>
+                  Image URL:
+                  <input type="text" value={image} onChange={(e) => setImage(e.target.value)} />
+                </label>
+                <br />
+                <label>
+                  Username:
+                  <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+                </label>
+                <br />
+                <label>
+                  Email:
+                  <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                </label>
+                <br />
+                <label>
+                  Bio:
+                  <textarea value={bio} onChange={(e) => setBio(e.target.value)} />
+                </label>
+                <br />
