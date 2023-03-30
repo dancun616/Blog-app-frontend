@@ -5,3 +5,10 @@ function Profile() {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [bio, setBio] = useState('');
+
+    function handleSubmit(event) {
+        event.preventDefault();
+        // TODO: Send form data to backend API
+      }
+
+      
