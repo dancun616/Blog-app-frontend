@@ -37,4 +37,22 @@ function Profile() {
           username,
           email,
           bio,
-        };   
+        };  
+        fetch(`/api/users`, {
+            method: 'PUT',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          })
+            .then(response => {
+              if (response.ok) {
+                // TODO: Handle successful update
+              } else {
+                // TODO: Handle error updating user
+              }
+            })
+            .catch(error => {
+              // TODO: Handle error
+            });
+        } 
