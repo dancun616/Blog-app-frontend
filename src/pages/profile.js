@@ -81,3 +81,12 @@ function Profile() {
                   <textarea value={bio} onChange={(e) => setBio(e.target.value)} />
                 </label>
                 <br />
+                <button type="submit">Save</button>
+                </form>
+                <button onClick={handleDelete}>Delete</button>
+                <button onClick={handleUpdate}>Update</button>
+                </div>
+            );
+            }
+
+            export default Profile;
