@@ -19,3 +19,14 @@ function Profile() {
           },
           body: JSON.stringify({ username }),
         })
+        .then(response => {
+            if (response.ok) {
+              // TODO: Handle successful delete
+            } else {
+              // TODO: Handle error deleting user
+            }
+          })
+          .catch(error => {
+            // TODO: Handle error
+          });
+      }
