@@ -30,3 +30,11 @@ function Profile() {
             // TODO: Handle error
           });
       }
+
+      function handleUpdate() {
+        const data = {
+          image,
+          username,
+          email,
+          bio,
+        };   
