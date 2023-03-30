@@ -11,4 +11,11 @@ function Profile() {
         // TODO: Send form data to backend API
       }
 
-      
+      function handleDelete() {
+        fetch(`/api/users`, {
+          method: 'DELETE',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ username }),
+        })
